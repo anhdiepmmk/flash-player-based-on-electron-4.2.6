@@ -1,1 +1,2 @@
-electron-packager ./ --platform=linux  --electronVersion=4.2.6 --overwrite
+electron-packager ./ --platform=linux  --electronVersion=4.2.6 --overwrite --icon=tqtk.ico --out=./dist/linux
+electron-packager ./ --platform=win32  --electronVersion=4.2.6 --overwrite --icon=tqtk.ico --out=./dist/win

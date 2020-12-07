@@ -28,6 +28,7 @@ app.on('ready', function () {
     minWidth: 800,
     minHeight: 600,
     frame: true,
+    icon: path.join(__dirname, 'tqtk.png'),
   })
 
   mainWindow.loadURL('http://tamquoctruyenky.vn/')

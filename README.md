@@ -1,0 +1,1 @@
+electron-packager ./ --platform=linux  --electronVersion=4.2.6 --overwrite
